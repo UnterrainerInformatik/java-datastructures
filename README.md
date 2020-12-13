@@ -8,26 +8,18 @@
 
 A library that contains various data-structures.
 
-
-
 ## Tuple2
 
 This class is a simple generic implementation of a two-tuple.
-
-
 
 ## Interval
 
 Is exactly what the name suggests. An interval defined by a minimum and a maximum with getters and setters implementing several safety-mechanisms like automatic boundary adaption when changing them, etc...
 
-
-
 ## Fader
 
 The fader consists of an interval and adds a value (double) to it. The value is always in between the interval.  
 It adds a percentage getter and setter as well allowing you to do conversions from a percentage-value to your interval and backwards.
-
-
 
 # Remarks
 
