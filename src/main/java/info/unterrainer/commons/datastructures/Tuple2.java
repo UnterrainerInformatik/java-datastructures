@@ -15,11 +15,6 @@ import lombok.Setter;
  * <p>
  * It implements {@link Serializable}, so it is serializable as long as the
  * parameters are serializable.
- * <p>
- * This class implements a legacy interface ({@link Entry}) that is not
- * annotated with null-annotations.<br>
- * In order to do that we reset the {@link ParametersAreNonnullByDefault} to
- * <code>none</code>.
  *
  * @param <A> the type of the first parameter.
  * @param <B> the type of the second parameter.
