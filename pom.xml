@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>info.unterrainer.commons</groupId>
 		<artifactId>parent-pom</artifactId>
-		<version>0.1.3</version>
+		<version>0.1.5</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
@@ -13,6 +13,13 @@
 	<version>0.1.2</version>
 	<name>DataStructures</name>
 	<packaging>jar</packaging>
+
+	<properties>
+		<mainclass>info.unterrainer.commons.datastructures.Fader</mainclass>
+		<name>Datastructures</name>
+		<package-path>info/unterrainer/commons/datastructures</package-path>
+		<packg-string>info.unterrainer.commons.datastructures</packg-string>
+	</properties>
 
 	<dependencies>
 	</dependencies>
