@@ -24,3 +24,5 @@ hs_err_pid*
 /target/
 
 src/main/java/info/unterrainer/commons/datastructures/Information.java
+
+.settings/
